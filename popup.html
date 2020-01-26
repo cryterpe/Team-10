@@ -2,10 +2,14 @@
   <html>
     <head>
       <style>
-        button {
-          height: 30px;
-          width: 30px;
+        body {
+          height: 350px;
+          width: 360px;
           outline: none;
+
+        }
+        textarea {
+          resize: vertical;
         }
       </style>
     </head>
@@ -17,22 +21,27 @@
         <fieldset>
           <legend>New Event</legend>
           <p>
-            <label>Title</label>
+            <label>Title:</label>
+            <p> </p>
             <input type = "titleName"
                    id = "myTitle" />
           </p>
           <p>
-            <label>Location</label>
+            <label>Location:</label>
+            <p> </p>
             <input type = "location"
                     id = "myLocation"/>
           </p>
           <p>
-            <label>Text Area</label>
-            <textarea> id = "myTextArea"
-                    rows = "3"
-                    cols = "80">Your text here</textarea>
+            <label>Description:</label>
+            <p> </p>
+            <textarea rows="5" cols="18"> </textarea>
           </p>
         </fieldset>
       </form>
+      <p> </p>
+      <button>
+        Submit
+      </button>
     </body>
   </html>
