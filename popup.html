@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <style>
+        button {
+          height: 30px;
+          width: 30px;
+          outline: none;
+        }
+      </style>
+    </head>
+    <body>
+      <button id="changeColor"></button>
+      <script src="popup.js"></script>
+      <h1>Google Calendar Popup</h1>
+      <form>
+        <fieldset>
+          <legend>New Event</legend>
+          <p>
+            <label>Title</label>
+            <input type = "titleName"
+                   id = "myTitle" />
+          </p>
+          <p>
+            <label>Location</label>
+            <input type = "location"
+                    id = "myLocation"/>
+          </p>
+          <p>
+            <label>Text Area</label>
+            <textarea> id = "myTextArea"
+                    rows = "3"
+                    cols = "80">Your text here</textarea>
+          </p>
+        </fieldset>
+      </form>
+    </body>
+  </html>
