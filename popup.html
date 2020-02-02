@@ -2,16 +2,18 @@
   <html>
     <head>
       <style>
-        button {
-          height: 30px;
-          width: 30px;
+        body {
+          height: 350px;
+          width: 360px;
           outline: none;
+
+        }
+        textarea {
+          resize: vertical;
         }
       </style>
     </head>
     <body>
-      <button id="changeColor"></button>
-      <script src="popup.js"></script>
       <h1>Google Calendar Popup</h1>
       <form>
         <fieldset>
@@ -41,8 +43,11 @@
             <textarea id="description" name="description" rows="6" cols="35">
             </textarea>
           </p>
-          
         </fieldset>
       </form>
+      <p> </p>
+      <button>
+        Submit
+      </button>
     </body>
   </html>
