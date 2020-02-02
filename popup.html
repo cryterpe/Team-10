@@ -2,44 +2,42 @@
   <html>
     <head>
       <style>
-        body {
-          height: 350px;
-          width: 360px;
+        button {
+          height: 30px;
+          width: 30px;
           outline: none;
-
-        }
-        textarea {
-          resize: vertical;
         }
       </style>
     </head>
     <body>
+      <button id="changeColor"></button>
+      <script src="popup.js"></script>
       <h1>Google Calendar Popup</h1>
       <form>
         <fieldset>
           <legend>New Event</legend>
           <p>
-            <label>Title:</label>
-            <p> </p>
+            <label>Title</label>
             <input type = "titleName"
                    id = "myTitle" />
           </p>
           <p>
-            <label>Location:</label>
-            <p> </p>
+            <label>Location</label>
             <input type = "location"
                     id = "myLocation"/>
           </p>
           <p>
-            <label>Description:</label>
-            <p> </p>
-            <textarea rows="5" cols="18"> </textarea>
+            <label>Date</label>
+            <input type = date
+                    id = "myDate"/>
           </p>
+          <p>
+            <label for="description">Description</label><br />
+            <textarea id="description" name="description" rows="6" cols="35">
+            </textarea>
+          </p>
+          
         </fieldset>
       </form>
-      <p> </p>
-      <button>
-        Submit
-      </button>
     </body>
   </html>
