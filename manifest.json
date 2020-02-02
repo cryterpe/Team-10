@@ -1,7 +1,9 @@
 {
-    "name": "team10project",
-    "version": "1.0",
-    "description": "Building a Google Calendar Extension!",
+    "name": "quickAdd to Google Calendar",
+    "version": "1.1",
+    "description": "Add calender events using a pop-up without needing to open
+    a Google Calendar webpage. Comes with date, time, location, event name,
+    and description input options. ",
     "permissions":["activeTab","declarativeContent", "storage"],
     "background": {
         "scripts": ["background.js"],
