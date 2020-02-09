@@ -13,3 +13,12 @@ changeColor.onclick = function(element) {
           {code: 'document.body.style.backgroundColor = "' + color + '";'});
     });
   };
+
+
+function formdata() 
+{
+var titleData= document.getElementById("myTitle").value;
+var locationData= document.getElementById("myLocation").value;
+
+}
+
