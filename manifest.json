@@ -11,11 +11,11 @@
     },
     "page_action": {
         "default_popup": "popup.html",
-        "default_icon": { /* need to fix images for icon */
-          "16": "IEEE-icon-16-px.png",
-          "32": "IEEE-icon-32-px.png",
-          "48": "IEEE-icon-48-px.png",
-          "128": "IEEE-icon.png"
+        "default_icon": {
+          "16": "images/IEEE-icon-16-px.png",
+          "32": "images/IEEE-icon-32-px.png",
+          "48": "images/IEEE-icon-48-px.png",
+          "128": "images/IEEE-icon.png"
         }
     },
     "options_page": "options.html",
