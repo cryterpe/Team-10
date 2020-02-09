@@ -19,6 +19,11 @@ function formdata()
 {
 var titleData= document.getElementById("myTitle").value;
 var locationData= document.getElementById("myLocation").value;
+var startdateData= document.getElementById("myStartDate").value;
+var starttimeData= document.getElementById("myStartTime").value; 
+var enddateData= document.getElementById("myEndDate").value;
+var endtimeData= document.getElementById("myEndTime").value;
+var descriptionData= document.getElementById("description").value;
 
 }
 
