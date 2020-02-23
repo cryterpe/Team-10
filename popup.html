@@ -1,6 +1,7 @@
 <!DOCTYPE html>
   <html>
     <head>
+      <link href="style.css" rel="stylesheet" type="text/css">
       <style>
         body {
           height: 350px;
@@ -16,53 +17,30 @@
       </style>
     </head>
     <body>
-      <h1>quickAdd Event</h1>
+      <h1>UC-mini</h1>
       <form>
         <fieldset>
-          <legend>New Event</legend>
-          <p>
-            <label>Title</label>
-            <input type = "titleName"
-                   id = "myTitle" />
-          </p>
-          <p>
-            <label>Location</label>
-            <input type = "location"
-                    id = "myLocation"/>
-          </p>
-          <p>
-            <label>Date</label>
-            <input type = date
-                    id = "myStartDate"/>
-          </p>
-          <p>
-            <label>Time</label>
-            <input type = time
-                    id = "myStartTime"/>
-          </p>
-          <p>
-            <label>Date</label>
-            <input type = date
-                    id = "myEndDate"/>
-          </p>
-          <p>
-            <label>Time</label>
-            <input type = time
-                    id = "myEndTime"/>
-          </p>
-          <p>
-            <label for="description">Description</label><br />
-            <textarea id="description" name="description" rows="6" cols="35">
-            </textarea>
-          </p>
-          <div id = "bottomBar">
-            <button class="button" type="button">Submit New Event</button>
-            <div id = "link">
-                <a href="https://calendar.google.com" target="_blank">Link to Google Calendar</a>
+          <legend>Links</legend>
+
+            <div class="container">
+              <a href="https://students.ucsd.edu/?_ga=2.119239246.65755850.1565970506-32579827.1565970506" target="_blank" class="btn-gradient cyan small">TritonLink</a>
+
+              <a href="https://canvas.ucsd.edu/" target="_blank" class="btn-gradient cyan small">Canvas</a>
+
+              <a href="https://tritoned.ucsd.edu/webapps/login/" target="_blank" class="btn-gradient cyan small">TritonEd</a>
+
+              <a href="https://podcast.ucsd.edu/default.aspx" target="_blank" class="btn-gradient cyan small">Podcasts</a>
+
+              <a href="https://piazza.com/ucsd/" target="_blank" class="btn-gradient cyan small">Piazza</a>
+
+              <a href="http://plans.ucsd.edu/" target="_blank" class="btn-gradient cyan small">4 Year Plan</a>
+
+              <a href="http://gradescope.com" target="_blank" class="btn-gradient cyan small">Gradescope</a>
             </div>
-          </div>
+
         </fieldset>
       </form>
+    </div>
       <p> </p>
     </body>
   </html>
