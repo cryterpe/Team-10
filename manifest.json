@@ -1,9 +1,8 @@
 {
-    "name": "quickAdd to Google Calendar",
+    "name": "quickUCSD",
     "version": "1.1",
-    "description": "Add calender events using a pop-up without needing to open
-    a Google Calendar webpage. Comes with date, time, location, event name,
-    and description input options. ",
+    "description": "Provides quick details on personalized student data about 
+    classes schedule. Comes with links to commonly used UCSD sites. ",
     "permissions":["activeTab","declarativeContent", "storage"],
     "background": {
         "scripts": ["background.js"],
