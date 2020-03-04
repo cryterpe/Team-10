@@ -2,19 +2,63 @@
   <html>
     <head>
       <style>
-        button {
-          height: 30px;
-          width: 30px;
-          outline: none;
-          margin: 10px;
+        body{
+          height: 350px;
+          width: 360px;
+          outline: none;       
+        }
+        textarea{
+          width: 330px;
+          height: 50px;
+          resize: vertical;
         }
       </style>
     </head>
     <body>
-      <div id="buttonDiv">
-      </div>
-      <div>
-      </div>
+      <h1>Add Class</h1>
+      <form action = "options.js" method="post">
+      <fieldset>
+        <legend>New Class</legend>
+        <p>
+          <label>Course</label>
+          <input type = "name" id = "className"/>
+        </p>
+        <p>
+          <label>Class Days:</label>
+          
+          <input type="checkbox" Name="Days" ID="C1" Value = "Monday">
+          <LABEL FOR="C1">Mon</LABEL>
+        
+          <input type="checkbox" Name="Days" ID="C2" Value = "Tuesday">
+          <LABEL FOR="C2">Tues</LABEL>
+            
+          <input type="checkbox" Name="Days" ID="C3" Value = "Wednesday">
+          <LABEL FOR="C3">Wed</LABEL>
+       
+          <input type="checkbox" Name="Days" ID="C4" Value = "Thursday">
+          <LABEL FOR="C4">Thurs</LABEL>
+     
+          <input type="checkbox" Name="Days" ID="C5" Value = "Friday">
+          <LABEL FOR="C5">Fri</LABEL>
+   
+          </p>
+          <p>
+            <label>Start Time</label>
+            <input type="time" id = "classStartTime"/>
+           
+          </p>
+          <p>
+              <label>End Time</label>
+              <input type="time" id = "classEndTime"/>
+             
+            </p>
+          <div id = "bottomBar">
+            <button type = "button", onclick="options.js">Submit Class</button>
+          </div>
+      </fieldset>
+      </form>
+
+
     </body>
     <script src="options.js"></script>
   </html>

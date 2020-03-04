@@ -1,25 +1,21 @@
-let changeColor = document.getElementById('changeColor');
-
-chrome.storage.sync.get('color', function(data) {
-  changeColor.style.backgroundColor = data.color;
-  changeColor.setAttribute('value', data.color);
-});
-
-changeColor.onclick = function(element) {
-    let color = element.target.value;
-    chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
-      chrome.tabs.executeScript(
-          tabs[0].id,
-          {code: 'document.body.style.backgroundColor = "' + color + '";'});
-    });
-  };
-
 
 function formdata() 
 {
-  var d = new Date();
-  document.getElementById("demo").innerHTML = d
+  var today = new Date();
+ 
+  var weekday = new Array(7);
+  weekday[0] = "Sunday";
+  weekday[1] = "Monday";
+  weekday[2] = "Tuesday";
+  weekday[3] = "Wednesday";
+  weekday[4] = "Thursday";
+  weekday[5] = "Friday";
+  weekday[6] = "Saturday";
 
+  var n = weekday[today.getDay()];
+  
+  var date = n+' '+(today.getMonth()+1)+'-'+today.getDate()+'-'+today.getFullYear();
+  document.write(date);
 }
 formdata();
 
