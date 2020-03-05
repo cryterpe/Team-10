@@ -15,7 +15,8 @@ function formdata()
   var n = weekday[today.getDay()];
   
   var date = n+' '+(today.getMonth()+1)+'-'+today.getDate()+'-'+today.getFullYear();
-  document.write(date);
+  document.getElementById("currentDate").innerHTML = date;
+  
 }
 formdata();
 
