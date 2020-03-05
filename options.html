@@ -1,6 +1,7 @@
 <!DOCTYPE html>
   <html>
     <head>
+      
       <style>
         body{
           height: 350px;
@@ -11,6 +12,11 @@
           width: 330px;
           height: 50px;
           resize: vertical;
+        }
+        button {
+          height: 20px;
+          width: 100px;
+          outline: none;
         }
       </style>
     </head>
@@ -53,12 +59,17 @@
              
             </p>
           <div id = "bottomBar">
-            <button type = "button", onclick="options.js">Submit Class</button>
+            <button id = "submit">Submit Class</button> 
+            <script src="options.js"></script>
           </div>
+      </fieldset>
+      <fieldset>
+          <legend>Schedule</legend>
+          <p id= "demo"></p>
       </fieldset>
       </form>
 
 
     </body>
-    <script src="options.js"></script>
+    
   </html>
